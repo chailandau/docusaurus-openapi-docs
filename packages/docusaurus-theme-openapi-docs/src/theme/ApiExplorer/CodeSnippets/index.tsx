@@ -133,6 +133,18 @@ export const languageSet: Language[] = [
     variant: "RestMethod",
     variants: ["restmethod"],
   },
+  {
+    highlight: "javascript",
+    language: "javascript",
+    codeSampleLanguage: "JavaScript",
+    logoClass: "javascript",
+    options: {
+      followRedirect: true,
+      trimRequestBody: true,
+    },
+    variant: "Fetch",
+    variants: ["fetch"],
+  },
 ];
 
 export interface Props {

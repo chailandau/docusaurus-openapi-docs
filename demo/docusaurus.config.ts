@@ -145,53 +145,41 @@ const config: Config = {
     },
     languageTabs: [
       {
-        highlight: "bash",
-        language: "curl",
-        logoClass: "bash",
+        highlight: "javascript",
+        language: "javascript",
+        logoClass: "javascript",
+        variant: "fetch",
+        variants: ["fetch"],
       },
       {
         highlight: "python",
         language: "python",
         logoClass: "python",
         variant: "requests",
+        variants: ["requests"],
       },
-      {
-        highlight: "go",
-        language: "go",
-        logoClass: "go",
-      },
+
       {
         highlight: "javascript",
         language: "nodejs",
         logoClass: "nodejs",
         variant: "axios",
-      },
-      {
-        highlight: "ruby",
-        language: "ruby",
-        logoClass: "ruby",
+        variants: ["axios", "request", "unirest"],
       },
       {
         highlight: "csharp",
         language: "csharp",
         logoClass: "csharp",
         variant: "httpclient",
+        variants: ["httpclient"],
       },
-      {
-        highlight: "php",
-        language: "php",
-        logoClass: "php",
-      },
+
       {
         highlight: "java",
         language: "java",
         logoClass: "java",
         variant: "unirest",
-      },
-      {
-        highlight: "powershell",
-        language: "powershell",
-        logoClass: "powershell",
+        variants: ["unirest"],
       },
     ],
     algolia: {
